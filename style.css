@@ -8,7 +8,7 @@
   }
   /* shared-styles */
 .secondary-bg{
-    background-color: rgb(236, 227, 221);
+    background-color: rgb(255, 248, 243);
 }
 .text-primary{
     color: rgb(253, 110, 10);
@@ -90,7 +90,7 @@ nav ul{
 /* main styles */
 main{
     margin: 0 230px;
-    max-width: 1140px;
+    background-color: white;
 }
 
 /* about section */
@@ -126,22 +126,29 @@ main{
 .resume-container{
     display: flex;
     column-gap: 24px;
+    margin-bottom: 50px;
 }
 
 /* Footer Styles */
 footer{
     display: flex;
     column-gap: 100px;
+    padding: 130px 230px;
+    margin-top: 130px;
 }
 footer input[type="text"], footer input[type="email"]{
     height: 64px;
-    width: 461px;
+    width: 100%;
     border-radius: 5px;
     background: white;
     display: block;
     margin-bottom: 24px;
+    border: none;
 }
 footer textarea{
     height: 180px;
     width: 461px;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
 }
