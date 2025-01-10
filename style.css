@@ -8,7 +8,7 @@
   }
   /* shared-styles */
 .secondary-bg{
-    background-color: rgb(255, 248, 243);
+    background-color: rgb(236, 227, 221);
 }
 .text-primary{
     color: rgb(253, 110, 10);
@@ -91,7 +91,6 @@ nav ul{
 main{
     margin: 0 230px;
     max-width: 1140px;
-    border: 5px solid green;
 }
 
 /* about section */
@@ -113,4 +112,36 @@ main{
 }
 .item-description{
     font-weight: 700;
+}
+/* skill section  */
+.skills-container{
+    display: flex;
+    column-gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px black;
+}
+/* Resume section */
+.resume-container{
+    display: flex;
+    column-gap: 24px;
+}
+
+/* Footer Styles */
+footer{
+    display: flex;
+    column-gap: 100px;
+}
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background: white;
+    display: block;
+    margin-bottom: 24px;
+}
+footer textarea{
+    height: 180px;
+    width: 461px;
 }
